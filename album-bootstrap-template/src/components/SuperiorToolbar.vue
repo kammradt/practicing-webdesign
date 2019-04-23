@@ -3,7 +3,7 @@
     <v-toolbar
       dark
       flat
-      height="60"
+      height="55"
       color="#343A40"
     >
       <v-btn flat :ripple='false'>
