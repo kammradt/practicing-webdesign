@@ -4,7 +4,7 @@
       dark
       flat
       height="55"
-      color="#343A40"
+      color="secondary"
     >
       <v-btn flat :ripple='false'>
         <v-icon color="grey" left>photo_camera</v-icon>
