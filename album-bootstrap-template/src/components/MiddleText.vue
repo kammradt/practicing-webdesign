@@ -10,7 +10,7 @@
             Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.
           </p>
         </v-flex>
-        <v-btn class="secondary">Main call to action</v-btn>
+        <Popup />
         <v-menu offset-y>
           <v-btn slot="activator">
             <v-icon left>expand_more</v-icon>
@@ -32,3 +32,13 @@
     </v-layout>
   </v-content>
 </template>
+
+<script>
+import Popup from '@/components/Popup'
+export default {
+  components: {
+    Popup,
+  }
+}
+</script>
+
