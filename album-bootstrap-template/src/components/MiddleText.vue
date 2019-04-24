@@ -11,7 +11,23 @@
           </p>
         </v-flex>
         <v-btn class="secondary">Main call to action</v-btn>
-        <v-btn >Secondary action</v-btn>
+        <v-menu offset-y>
+          <v-btn slot="activator">
+            <v-icon left>expand_more</v-icon>
+            <span>Secondary action</span>
+          </v-btn>
+          <v-list>
+            <v-list-tile>
+              <v-list-tile-title>Item 1</v-list-tile-title>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-title>Item 2</v-list-tile-title>
+            </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-title>Item 5</v-list-tile-title>
+            </v-list-tile>
+          </v-list>
+        </v-menu>
       </v-flex>
     </v-layout>
   </v-content>
