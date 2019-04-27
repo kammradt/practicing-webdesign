@@ -1,6 +1,6 @@
 <template>
   <v-content>
-    <v-expansion-panel>
+    <v-expansion-panel >
       <v-expansion-panel-content class="secondary">
         <template v-slot:header>
           <div>

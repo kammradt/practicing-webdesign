@@ -1,6 +1,6 @@
 <template>
   <v-content>
-    <v-flex xs12 grey lighten-1>
+    <v-flex xs12 grey lighten-4>
       <v-container grid-list-md>
         <v-layout row wrap>
           <v-flex v-for="card in cards" :key="card.title" xs12 sm4 pa-3>
