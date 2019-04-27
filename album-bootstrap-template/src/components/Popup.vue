@@ -1,5 +1,5 @@
 <template>
-  <v-dialog max-width="600px">
+  <v-dialog max-width="600px" v-model="dialog">
     <v-btn flat slot="activator" class="secondary">Primary action</v-btn>
     <v-card>
       <v-card-title>
@@ -23,9 +23,20 @@
             color="secondary"
             class="mx-0 mt-3"
             v-text="'Confirm'"
+            @click="dialog = !dialog"
           />
         </v-form>
       </v-card-text>
     </v-card>
   </v-dialog>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      dialog: false
+    }
+  }
+}
+</script>
