@@ -11,6 +11,19 @@
               <v-card-text>
                 {{ card.content }}
               </v-card-text>
+              <v-layout row wrap align-center>
+                <v-flex xs9>
+                  <v-card-actions>
+                    <v-btn small outline color="secondary" class="ma-0 text-capitalize">View</v-btn>
+                    <v-btn small outline color="secondary" class="ma-0 text-capitalize">Edit</v-btn>
+                  </v-card-actions>
+                </v-flex>
+                <v-flex xs3 >
+                  <p class="px-3 caption font-weight-light mt-3 right">
+                    9 mins
+                  </p>
+                </v-flex>
+              </v-layout>
             </v-card>
           </v-flex>
         </v-layout>
