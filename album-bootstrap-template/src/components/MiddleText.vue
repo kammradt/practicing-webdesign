@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <v-layout align-center justify-center row>
-      <v-flex xs12 text-xs-center mt-5>
+      <v-flex xs12 text-xs-center my-5>
         <p class="font-weight-light display-1">
           Album example
         </p>
