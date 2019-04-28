@@ -1,4 +1,8 @@
-# album
+# Template followed
+![Imgur](https://i.imgur.com/b96aRHI.png)
+
+# Result
+![Imgur](https://i.imgur.com/gkypcSx.png?1)
 
 ## Project setup
 ```
