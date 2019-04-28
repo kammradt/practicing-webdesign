@@ -1,5 +1,5 @@
 # Template followed
-![Imgur](https://i.imgur.com/b96aRHI.png)
+![Imgur](https://i.imgur.com/b96aRHI.png?1)
 
 # Result
 ![Imgur](https://i.imgur.com/gkypcSx.png?1)
